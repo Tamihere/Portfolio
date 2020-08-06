@@ -41,6 +41,7 @@ video {
 	width: 75%;
 	height: 100%;
 	margin: 0px;
+	padding: 10px;
 	background: cyan;
 	font-family: Courier;
 	float: right;
@@ -146,6 +147,11 @@ video {
 .pf-right-number {
 	float: right;
 	text-align: right;
-	padding: 10px;
 	margin-bottom: 10px;
+	
+}
+
+#pftw {
+	width: 80%;
+	float: right;
 }
