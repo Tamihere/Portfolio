@@ -37,7 +37,7 @@ video {
 	overflow: hidden;
 }
 
-.pf-rightbox {
+#pf-rightbox-tw {
 	width: 75%;
 	height: 100%;
 	margin: 0px;
@@ -45,6 +45,19 @@ video {
 	background: cyan;
 	font-family: Courier;
 	float: right;
+	display: none;
+	overflow: hidden;
+}
+
+#pf-rightbox-tfom {
+	width: 75%;
+	height: 100%;
+	margin: 0px;
+	padding: 10px;
+	background: green;
+	font-family: Courier;
+	float: right;
+	display: none;
 	overflow: hidden;
 }
 
@@ -59,12 +72,13 @@ video {
 	display: flex;
 }
 
-.pf-work {
+#pf-work {
 	width: 99%;
 	height: 70%;
 	padding: 10px;
 	padding-top: 30px;
 	background: green;
+	display: none;
 }
 
 /* flipY class and keyframes*/
@@ -154,4 +168,11 @@ video {
 #pftw {
 	width: 80%;
 	float: right;
+	display: none;
+}
+
+#pftw2 {
+	width: 80%;
+	float: right;
+	display: none;
 }
