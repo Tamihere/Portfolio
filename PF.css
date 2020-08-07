@@ -75,6 +75,58 @@ video {
 	z-index: 10;
 }
 
+#pf-leftboxinfo4 {
+	width: 20%;
+	height: 100%;
+	margin: 0px;
+	background: white;
+	font-family: Courier;
+	float: left;
+	display: none;
+	position: absolute;
+	overflow: hidden;
+	z-index: 10;
+}
+
+#pf-leftboxinfo5 {
+	width: 20%;
+	height: 100%;
+	margin: 0px;
+	background: white;
+	font-family: Courier;
+	float: left;
+	display: none;
+	position: absolute;
+	overflow: hidden;
+	z-index: 10;
+}
+
+#pf-leftboxinfo6 {
+	width: 20%;
+	height: 100%;
+	margin: 0px;
+	background: white;
+	font-family: Courier;
+	float: left;
+	display: none;
+	position: absolute;
+	overflow: hidden;
+	z-index: 10;
+}
+
+#pf-leftboxinfo7 {
+	width: 20%;
+	height: 100%;
+	margin: 0px;
+	background: white;
+	font-family: Courier;
+	float: left;
+	display: none;
+	position: absolute;
+	overflow: hidden;
+	z-index: 10;
+}
+
 #pf-rightbox-tw {
 	width: 75%;
 	height: 100%;
@@ -98,6 +150,50 @@ video {
 }
 
 #pf-rightbox-c {
+	width: 75%;
+	height: 100%;
+	margin: 0px;
+	padding: 10px;
+	font-family: Courier;
+	float: right;
+	display: none;
+	overflow: hidden;
+}
+
+#pf-rightbox-ewfp {
+	width: 75%;
+	height: 100%;
+	margin: 0px;
+	padding: 10px;
+	font-family: Courier;
+	float: right;
+	display: none;
+	overflow: hidden;
+}
+
+#pf-rightbox-ewfw {
+	width: 75%;
+	height: 100%;
+	margin: 0px;
+	padding: 10px;
+	font-family: Courier;
+	float: right;
+	display: none;
+	overflow: hidden;
+}
+
+#pf-rightbox-i {
+	width: 75%;
+	height: 100%;
+	margin: 0px;
+	padding: 10px;
+	font-family: Courier;
+	float: right;
+	display: none;
+	overflow: hidden;
+}
+
+#pf-rightbox-about {
 	width: 75%;
 	height: 100%;
 	margin: 0px;
@@ -219,6 +315,35 @@ video {
 }
 
 .pf-ewf-posters:hover {
+	text-decoration: underline;
+}
+
+.pf-ewf-website {
+	color: black;
+	display: inline-block;
+	text-decoration: line-through;
+}
+
+.pf-ewf-website:hover {
+	text-decoration: line-through;
+}
+
+.pf-identity {
+	color: black;
+	display: inline-block;
+	text-decoration: line-through;
+}
+
+.pf-identity:hover {
+	text-decoration: line-through;
+}
+
+.pf-about {
+	color: black;
+	display: inline-block;
+}
+
+.pf-about:hover {
 	text-decoration: underline;
 }
 
@@ -481,5 +606,41 @@ video {
 	width: 100%;
 	padding-top: 200px;
 	float: right;
+	display: none;
+}
+
+#pfewfp {
+	width: 42%;
+	float: left;
+	display: none;
+}
+
+#pfewfp2 {
+	width: 42%;
+	float: left;
+	display: none;
+}
+
+#pfewfp3 {
+	width: 42%;
+	float: left;
+	display: none;
+}
+
+#pfewfw {
+	width: 80%;
+	float: left;
+	display: none;
+}
+
+#pfi {
+	width: 80%;
+	float: left;
+	display: none;
+}
+
+#pfabout {
+	width: 40%;
+	float: left;
 	display: none;
 }
