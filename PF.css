@@ -165,6 +165,20 @@ video {
 	
 }
 
+.pf-arrow-left {
+	float: left;
+	text-align: left;
+	margin-bottom: 10px;
+	
+}
+
+.pf-arrow-right {
+	float: right;
+	text-align: right;
+	margin-bottom: 10px;
+	
+}
+
 #pftw {
 	width: 80%;
 	float: right;
@@ -172,6 +186,84 @@ video {
 }
 
 #pftw2 {
+	width: 80%;
+	float: right;
+	display: none;
+}
+
+#pftw3 {
+	width: 80%;
+	float: right;
+	display: none;
+}
+
+#pftw4 {
+	width: 80%;
+	float: right;
+	display: none;
+}
+
+#pftw5 {
+	width: 80%;
+	float: right;
+	display: none;
+}
+
+#pftw6 {
+	width: 80%;
+	float: right;
+	display: none;
+}
+
+#pftw7 {
+	width: 80%;
+	float: right;
+	display: none;
+}
+
+#pftw8 {
+	width: 80%;
+	float: right;
+	display: none;
+}
+
+#pftw9 {
+	width: 80%;
+	float: right;
+	display: none;
+}
+
+#pftw10 {
+	width: 80%;
+	float: right;
+	display: none;
+}
+
+#pftw11 {
+	width: 80%;
+	float: right;
+	display: none;
+}
+
+#pftw12 {
+	width: 80%;
+	float: right;
+	display: none;
+}
+
+#pftw13 {
+	width: 80%;
+	float: right;
+	display: none;
+}
+
+#pftw14 {
+	width: 80%;
+	float: right;
+	display: none;
+}
+
+#pftw15 {
 	width: 80%;
 	float: right;
 	display: none;
