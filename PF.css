@@ -31,10 +31,48 @@ video {
 	width: 20%;
 	height: 100%;
 	margin: 0px;
-	background: salmon;
 	font-family: Courier;
 	float: left;
 	overflow: hidden;
+}
+
+#pf-leftboxinfo {
+	width: 20%;
+	height: 100%;
+	margin: 0px;
+	background: white;
+	font-family: Courier;
+	float: left;
+	display: none;
+	position: absolute;
+	overflow: hidden;
+	z-index: 10;
+}
+
+#pf-leftboxinfo2 {
+	width: 20%;
+	height: 100%;
+	margin: 0px;
+	background: white;
+	font-family: Courier;
+	float: left;
+	display: none;
+	position: absolute;
+	overflow: hidden;
+	z-index: 10;
+}
+
+#pf-leftboxinfo3 {
+	width: 20%;
+	height: 100%;
+	margin: 0px;
+	background: white;
+	font-family: Courier;
+	float: left;
+	display: none;
+	position: absolute;
+	overflow: hidden;
+	z-index: 10;
 }
 
 #pf-rightbox-tw {
@@ -42,7 +80,6 @@ video {
 	height: 100%;
 	margin: 0px;
 	padding: 10px;
-	background: cyan;
 	font-family: Courier;
 	float: right;
 	display: none;
@@ -54,7 +91,17 @@ video {
 	height: 100%;
 	margin: 0px;
 	padding: 10px;
-	background: green;
+	font-family: Courier;
+	float: right;
+	display: none;
+	overflow: hidden;
+}
+
+#pf-rightbox-c {
+	width: 75%;
+	height: 100%;
+	margin: 0px;
+	padding: 10px;
 	font-family: Courier;
 	float: right;
 	display: none;
@@ -64,7 +111,6 @@ video {
 .pf-title {
 	width: 100%;
 	height: 10%;
-	background: blue;
 	font-size: 15pt;
 	font-family: Courier;
 	align-items: left;
@@ -77,8 +123,18 @@ video {
 	height: 70%;
 	padding: 10px;
 	padding-top: 30px;
-	background: green;
 	display: none;
+}
+
+.pf-information {
+	width: 99%;
+	height: 70%;
+	padding: 10px;
+	padding-top: 30px;
+}
+
+.link:hover {
+	text-decoration: underline;
 }
 
 /* flipY class and keyframes*/
@@ -88,6 +144,14 @@ video {
 	animation-iteration-count: infinite;
 	animation-duration: 6s;
 }
+
+.pf-title2 {
+	animation-name: spin, depth;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-duration: 6s;
+}
+
 @keyframes spin {
 	0% {
 	  transform: rotateY(0deg);
@@ -265,6 +329,157 @@ video {
 
 #pftw15 {
 	width: 80%;
+	float: right;
+	display: none;
+}
+
+#pftw16 {
+	width: 80%;
+	float: right;
+	display: none;
+}
+
+#pftw17 {
+	width: 80%;
+	float: right;
+	display: none;
+}
+
+#pftw18 {
+	width: 80%;
+	float: right;
+	display: none;
+}
+
+#pftw19 {
+	width: 80%;
+	float: right;
+	display: none;
+}
+
+#pftw20 {
+	width: 80%;
+	float: right;
+	display: none;
+}
+
+#pftw21 {
+	width: 80%;
+	float: right;
+	display: none;
+}
+
+#pftw22 {
+	width: 80%;
+	float: right;
+	display: none;
+}
+
+#pftw23 {
+	width: 80%;
+	float: right;
+	display: none;
+}
+
+#pftw24 {
+	width: 80%;
+	float: right;
+	display: none;
+}
+
+#pftw25 {
+	width: 80%;
+	float: right;
+	display: none;
+}
+
+#pftfom {
+	width: 100%;
+	padding-top: 20px;
+	float: right;
+	display: none;
+}
+
+#pftfom2 {
+	width: 100%;
+	padding-top: 20px;
+	float: right;
+	display: none;
+}
+
+#pftfom3 {
+	width: 100%;
+	padding-top: 20px;
+	float: right;
+	display: none;
+}
+
+#pftfom4 {
+	width: 100%;
+	padding-top: 20px;
+	float: right;
+	display: none;
+}
+
+#pftfom5 {
+	width: 100%;
+	padding-top: 20px;
+	float: right;
+	display: none;
+}
+
+#pfc {
+	width: 80%;
+	padding-top: 20px;
+	float: right;
+	display: none;
+}
+
+#pfc2 {
+	width: 80%;
+	padding-top: 20px;
+	float: right;
+	display: none;
+}
+
+#pfc3 {
+	width: 80%;
+	padding-top: 20px;
+	float: right;
+	display: none;
+}
+
+#pfc4 {
+	width: 80%;
+	padding-top: 20px;
+	float: right;
+	display: none;
+}
+
+#pfc5 {
+	width: 80%;
+	padding-top: 20px;
+	float: right;
+	display: none;
+}
+
+#pfc6 {
+	width: 80%;
+	padding-top: 20px;
+	float: right;
+	display: none;
+}
+
+#pfc7 {
+	width: 80%;
+	padding-top: 20px;
+	float: right;
+	display: none;
+}
+
+#pfc8 {
+	width: 100%;
+	padding-top: 200px;
 	float: right;
 	display: none;
 }
