@@ -7,3 +7,13 @@ function toggle_visibility(id) {
        else
           e.style.display = 'block';
 }
+
+var autoPlayVideo =
+	document.getElementById(id);
+		autoPlayVideo.oncanplauthrough =
+function() {
+			autoPlayVideo.muted = true;
+			autoPlayVideo.play();
+			autoPlayVideo.pause();
+			autoPlayVideo.play();
+		}
